@@ -1,0 +1,8 @@
+gordo|3
+grasoso|3
+cerdo|3
+fracasado|3
+feo|2
+rata|2
+flaco|1
+xd|1
