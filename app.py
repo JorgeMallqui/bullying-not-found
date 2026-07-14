@@ -4,7 +4,7 @@ import time
 import cerebro  # Enlace al cerebro conversacional
 
 # --- CONFIGURACIÓN DE LA PÁGINA WEB ---
-st.set_page_config(page_title="Escudo Digital - Alerta Cyberbullying", page_icon="🛡️", layout="centered")
+st.set_page_config(page_title="Bullying Not Found - Alerta Cyberbullying", page_icon="🛡️", layout="centered")
 
 # --- PALETA DE COLORES Y ANIMACIONES (Combinación Oficial Beige y Melón) ---
 st.markdown("""
@@ -42,7 +42,7 @@ if "mensajes_guardian" not in st.session_state:
 
 # --- REUTILIZACIÓN DEL LOGOTIPO DE PORTADA ---
 st.markdown('<div class="logo-container"><div class="escudo-interactivo">🛡️</div></div>', unsafe_allow_html=True)
-st.markdown("<h1 style='text-align: center; margin-bottom: 0px;'>Proyecto Escudo Digital</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; margin-bottom: 0px;'>Bullying Not Found</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: #7A685C; font-size: 16px;'>Tu espacio seguro, confidencial y amigable contra el acoso escolar.</p>", unsafe_allow_html=True)
 st.markdown("---")
 
